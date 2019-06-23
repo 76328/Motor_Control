@@ -3,7 +3,7 @@
 
 
 
-typedef struct current MT_CUR
+typedef struct motor_current MT_CUR
 typedef struct motor_param MT_PARA
 typedef struct driver_param DRV_PARA
 typedef struct svpwm_motor_ctr_handle MT_CTR_HANDLE

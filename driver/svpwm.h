@@ -40,7 +40,7 @@ struct svpwm_motor_ctr_handle
   
 
   
-  void (*init)();
+  
   void (*duty_cycle)(*MT_CTR_HANDLE mt_ctr);
   void (*get_info)(*MT_CTR_HANDLE mt_ctr);
 
@@ -48,12 +48,12 @@ struct svpwm_motor_ctr_handle
 };
 
 
-void Read_Current(*CURRENT mt_cur);
-
-void FOC_cal(*MT_CTR_HANDLE);
 
 
 
+
+
+void mt_ctr_init(*MT_CTR_HANDLE mt_ctr);
 
 
 

@@ -53,7 +53,7 @@ struct svpwm_motor_ctr_handle
 
 
 
-void mt_ctr_init(*MT_CTR_HANDLE mt_ctr);
+void mt_ctr_init(MT_CTR_HANDLE mt_ctr);
 
 
 
